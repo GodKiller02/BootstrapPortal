@@ -1,0 +1,23 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "whichFolder": "subdir",
+    "solutionName": "fund-data-compass-spfx",
+    "environment": "spo",
+    "useGulp": false,
+    "componentType": "webpart",
+    "template": "react",
+    "componentName": "FundDataCompass",
+    "componentDescription": "Fund Data Compass portal webpart",
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "22.21.1",
+    "sdksVersions": {},
+    "version": "1.22.0",
+    "libraryName": "fund-data-compass-spfx",
+    "libraryId": "cac6565b-a9df-4e1b-a6b0-ce0685327c50",
+    "packageManager": "npm",
+    "solutionShortDescription": "fund-data-compass-spfx description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false
+  }
+}
