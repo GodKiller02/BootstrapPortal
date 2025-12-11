@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "fund-data-compass-spfx-client-side-solution",
+    "id": "cac6565b-a9df-4e1b-a6b0-ce0685327c50",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.22.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "fund-data-compass-spfx description"
+      },
+      "longDescription": {
+        "default": "fund-data-compass-spfx description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "fund-data-compass-spfx Feature",
+        "description": "The feature that activates elements of the fund-data-compass-spfx solution.",
+        "id": "e388e57c-cf38-4345-82d1-82521aba3ba7",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/fund-data-compass-spfx.sppkg"
+  }
+}

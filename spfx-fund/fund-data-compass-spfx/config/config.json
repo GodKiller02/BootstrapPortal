@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "fund-data-compass-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/fundDataCompass/FundDataCompassWebPart.js",
+          "manifest": "./src/webparts/fundDataCompass/FundDataCompassWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "FundDataCompassWebPartStrings": "lib/webparts/fundDataCompass/loc/{locale}.js"
+  }
+}
