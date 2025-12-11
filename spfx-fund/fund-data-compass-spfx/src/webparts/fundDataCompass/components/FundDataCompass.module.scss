@@ -268,7 +268,32 @@
     grid-template-columns: 1fr;
   }
 
+  .primaryColumn,
+  .secondaryColumn {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .fundDataCompass {
+    padding: 1.25rem;
+  }
+
+  .portalHero {
+    padding: 1.25rem;
+  }
+
   .heroCopy {
-    text-align: center;
+    width: 100%;
+  }
+
+  .infoGrid,
+  .dataGrid,
+  .capabilityGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .rightPanel {
+    padding: 1.5rem;
   }
 }
